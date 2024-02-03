@@ -15,7 +15,7 @@ const Header = () => {
             <li className=' hover:bg-blue-500  p-2 cursor-pointer rounded-3xl' ><a>Pricing</a></li>
             <li className=' hover:bg-blue-500 rounded-3xl p-2 cursor-pointer'><a>About us</a></li>
             <li className=' hover:bg-blue-500 rounded-3xl p-2 cursor-pointer' onClick={()=>router.push("faq")}><a>How to Use</a></li>
-            <li className=' hover:bg-blue-500 rounded-3xl p-2 cursor-pointer '><a>Feedback</a></li>
+            <li className=' hover:bg-blue-500 rounded-3xl p-2 cursor-pointer ' onClick={()=>router.push("feedback")}><a>Testimonials</a></li>
             
         </ul>
         <div className='mr-6 flex gap-5  text-white justify-between items-center'>

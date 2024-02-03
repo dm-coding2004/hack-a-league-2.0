@@ -1,7 +1,9 @@
 
+import { useRouter } from 'next/navigation'
 import React from 'react'
 
 const Footer = () => {
+    const router=useRouter()
   return (
     <footer className='text-white '>
         <div className='p-[70px] flex justify-between 
@@ -13,6 +15,7 @@ const Footer = () => {
                 <h2>twitter</h2>
                 <h2>face</h2>
             </div>
+            <h1 className='font-extrabold text-2xl text-yellow-200 hover:underline' onClick={()=>router.push('feedbackform')}>Give Feedback</h1>
             <h1 className='text-xs text-gray-400'>© Superlama 2024</h1>
             </div>
             <div className='flex flex-col gap-4'>

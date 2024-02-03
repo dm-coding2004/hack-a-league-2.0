@@ -3,6 +3,11 @@
 # dependencies
 **/*/node_modules
 **/temp
+**/chat
+**/botinterface
+**/ui
+**/chatinterface
+
 
 /.pnp
 .pnp.js
